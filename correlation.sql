@@ -1,0 +1,23 @@
+SELECT 
+    CORR(amount, V1) AS corr_amount_v1,
+    CORR(amount, V2) AS corr_amount_v2,
+    CORR(amount, V3) AS corr_amount_v3,
+    CORR(amount, V4) AS corr_amount_v4,
+    CORR(amount, V5) AS corr_amount_v5,
+    CORR(amount, V6) AS corr_amount_v6,
+    CORR(amount, V7) AS corr_amount_v7,
+    CORR(amount, V8) AS corr_amount_v8,
+    CORR(amount, V9) AS corr_amount_v9,
+    CORR(amount, V10) AS corr_amount_v10,
+    CORR(amount, V11) AS corr_amount_v11,
+    CORR(amount, V12) AS corr_amount_v12,
+    CORR(amount, V13) AS corr_amount_v13,
+    CORR(amount, V14) AS corr_amount_v14,
+    CORR(amount, V15) AS corr_amount_v15,
+    CORR(amount, V16) AS corr_amount_v16,
+    CORR(amount, V17) AS corr_amount_v17,
+    CORR(amount, V18) AS corr_amount_v18,
+    CORR(amount, V19) AS corr_amount_v19,
+    CORR(amount, V20) AS corr_amount_v20,
+    CORR(amount, V21) AS corr_amount_v21
+FROM transactions;
